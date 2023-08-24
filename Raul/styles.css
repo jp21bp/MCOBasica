@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+}
+
+/*****Navegador*****/
+
+.navegador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 3px;
+    background-color: rgba(4, 20, 248, 0.973);
+    color: rgb(249, 253, 253);
+}
+
+.navegador-izquierda,
+.navegador-derecha{
+    /*border: 5px solid green;*/
+}
+
+.navegador-centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*border: 5px solid red;*/
+    background-color: rgb(19, 21, 1);
+}
+
+.navegador-centro div{
+    margin: 1.5vw;
+    /*border: 3px solid orange;*/
+    background-color: rgb(246, 239, 239);
+}
+
+/*****Contenido 1******/
+.contenido-1{
+    padding: 2vw;
+    border: 5px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(228, 253, 2, 0.986);
+}
+
+
+/******Contenido 2******/
+
+.contenido-2{
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.contenido-2 > *{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.75vw;
+    /*border: 5px solid yellow;*/
+}
+
+.contenido-2 > * > *{
+    padding: 5px;
+    /*border: 5px solid purple;*/
+}
+
+.contenido-2 > * > * > *{
+    /*border: 5px solid blue;*/
+}
+
+/***** Contenido 3 *****/
+.contenido-3{
+    padding: 1.5vw;
+    border: 5px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.contenido-4{
+    padding: 1.5vw;
+    border: 5px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+/***** Todos Contendios*****/
+.contenido-1 > *,
+.contenido-3 > *,
+.contenido-4 > *{
+    /*border: 5px solid brown;*/
+}
