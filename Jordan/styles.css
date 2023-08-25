@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(220, 55, 55);
+}
+
+/*****Navegador*****/
+
+.navegador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 3px;
+    background-color: rgba(4, 20, 248, 0.973);
+    color: rgb(249, 253, 253);
+}
+
+.navegador-izquierda,
+.navegador-derecha{
+    /*border: 5px solid green;*/
+}
+
+.navegador-centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*border: 5px solid red;*/
+    background-color: rgb(19, 21, 1);
+}
+
+.navegador-centro div{
+    margin: 1.5vw;
+    /*border: 3px solid orange;*/
+    background-color: rgb(246, 239, 239);
+}
+
+/*****Contenido 1******/
+.contenido-1{
+    padding: 2vw;
+    border: 5px solid black;
+    margin: 10px;
+    text-align: center;    
+    background-color: rgba(228, 253, 2, 0.986);
+}
+
+
+/******Contenido 2******/
+
+.contenido-2{
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.contenido-2 > *{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.75vw;
+    /*border: 5px solid yellow;*/
+}
+
+.contenido-2 > * > *{
+    padding: 5px;
+    /*border: 5px solid purple;*/
+}
+
+.contenido-2 > * > * > *{
+    /*border: 5px solid blue;*/
+}
+
+/*****Contenido 2 - 9 grado *******/
+
+.objeto-1,
+.objeto-2{
+    background-color: rgba(34, 0, 255, 0.997);
+    color: rgba(2, 3, 0, 0.874);
+}
+
+.objeto-1 > *,
+.objeto-2 > *{
+    background-color: rgba(11, 27, 204, 0.838);
+    color: rgb(0, 0, 0);
+}
+
+
+
+/*****Contenido 2 - 8 grado *******/
+.objeto-3,
+.objeto-4{
+    background-color: rgba(0, 255, 255, 0.177);
+    color: rgb(226, 250, 10);
+}
+
+.objeto-3 > *,
+.objeto-4 > *{
+    background-color: rgb(11, 12, 12);
+    color: blue;
+}
+
+
+
+/*****Contenido 2 - 7 grado *******/
+.objeto-5,
+.objeto-6{
+    background-color: floralwhite;
+    color: bisque;
+}
+
+
+.objeto-5 > *,
+.objeto-6 > *{
+    background-color: antiquewhite;
+    color: black;    
+}
+
+
+/***** Contenido 3 y 4 *****/
+.contenido-3{
+    padding: 1.5vw;
+    border: 5px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.contenido-4{
+    padding: 1.5vw;
+    border: 5px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+/***** Todos Contendios*****/
+.contenido-1 > *,
+.contenido-3 > *,
+.contenido-4 > *{
+    /*border: 5px solid brown;*/
+}
